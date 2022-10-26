@@ -1,0 +1,4 @@
+baseURL = 'https://github.io/Roennie123/testRepo'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'ananke'
