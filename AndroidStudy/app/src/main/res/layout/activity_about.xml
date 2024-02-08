@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view_back_half"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/background_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="150px"
+        android:text="About this study"
+        android:textColor="@color/white"
+        android:textSize="75px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view_text"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:background="@drawable/window_view"
+        android:elevation="4dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_title"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <ScrollView
+        android:id="@+id/view_scroll"
+        android:layout_width="280dp"
+        android:layout_height="360dp"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/view_text"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/view_text"
+        app:layout_constraintTop_toTopOf="@+id/view_text">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subtitle_installationInstruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:text="@string/subtitle_installation" />
+
+            <TextView
+                android:id="@+id/text_aboutPermissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="50px"
+                android:text="@string/text_permissions" />
+
+            <CheckBox
+                android:id="@+id/checkbox_aboutPermissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:padding="4dp"
+                android:text="@string/checkbox_about"
+                android:textColor="#8E8E8E"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/text_aboutRegistration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="@string/text_registration"
+                android:textSize="50px" />
+
+            <CheckBox
+                android:id="@+id/checkbox_aboutRegistration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:padding="4dp"
+                android:text="@string/checkbox_about"
+                android:textColor="#8E8E8E"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/text_aboutStudystart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="50px"
+                android:text="@string/text_studyStart" />
+
+            <CheckBox
+                android:id="@+id/checkbox_aboutStudystart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:padding="4dp"
+                android:text="@string/checkbox_about"
+                android:textColor="#8E8E8E"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/subtitle_aboutServicekill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:text="@string/subtitle_servicekill" />
+
+            <TextView
+                android:id="@+id/text_aboutServicekill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="50px"
+                android:text="@string/text_servicekill" />
+
+            <CheckBox
+                android:id="@+id/checkbox_aboutServicekill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:padding="4dp"
+                android:text="@string/checkbox_about"
+                android:textColor="#8E8E8E"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/subtitle_aboutRestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:text="@string/subtitle_restart" />
+
+            <TextView
+                android:id="@+id/text_aboutRestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="50px"
+                android:text="@string/text_restart" />
+
+            <CheckBox
+                android:id="@+id/checkbox_aboutRestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:padding="4dp"
+                android:text="@string/checkbox_about"
+                android:textColor="#8E8E8E"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/subtitle_aboutStudystopp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:text="@string/subtitle_studyStopp" />
+
+            <TextView
+                android:id="@+id/text_aboutStudystopp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="50px"
+                android:text="@string/text_studyStopp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_aboutStudystopp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:padding="4dp"
+                android:text="@string/checkbox_about"
+                android:textColor="#8E8E8E"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/subtitle_extra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:text="@string/subtitle_extra" />
+
+            <TextView
+                android:id="@+id/text_extra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="50px"
+                android:text="@string/text_extra" />
+
+            <CheckBox
+                android:id="@+id/checkbox_extra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:padding="4dp"
+                android:text="@string/checkbox_about"
+                android:textColor="#8E8E8E"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/subtitle_aboutThanks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:text="@string/subtitle_thankyou" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/bt_next_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:text="next"
+        android:textStyle="bold"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_text"
+        app:layout_constraintEnd_toEndOf="@+id/view_text"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toEndOf="@+id/bt_back_about" />
+
+    <Button
+        android:id="@+id/bt_back_about"
+        android:layout_width="84dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:text="back"
+        android:textStyle="bold"
+        android:translationZ="2dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/view_text"
+        app:layout_constraintEnd_toStartOf="@+id/bt_next_about"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="@+id/view_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_text"
+        app:layout_constraintVertical_bias="0.203">
+
+        <Switch
+            android:id="@+id/switch_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:textColor="@color/greenblue"
+            android:text="en" />
+
+        <TextView
+            android:id="@+id/text_german"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="de"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

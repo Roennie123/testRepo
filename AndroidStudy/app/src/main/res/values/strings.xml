@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">androidstudy</string>
+
+    <string name="accessibility_service_description">Your accessibility service description here</string>
+    <string name="accessibility_service_label">accessibility service</string>
+
+    <string name="text_permissions">
+        <b>Permissions:</b>\n
+        On one of the following pages, you will be asked to grant certain <b>smartphone requests</b> through the app.
+        Please allow them, otherwise the study cannot be performed correctly.\n
+        These are required only for this study and disappear when the app is uninstalled.
+        No personal data will be read out.
+        Which permissions are required depends on the version of your Android smartphone.
+    </string>
+    <string name="text_DEpermissions">
+        <b>Permissions:</b>\n
+        Auf einer der folgenden Seiten werden Sie darum gebeten bestimmte <b>Smartphonezugriffe</b> durch die App zu genehmigen.
+        Bitte erlauben Sie diese, denn sonst kann die Studie nicht sachgemäß durchgeführt werden.\n
+        Diese werden einzig und allein für diese Studie benötigt und verfallen mit Deinstallation der App.
+        Es werden keinerlei persönliche Daten ausgelesen.
+        Welche Zugriffe benötigt werden sind je nach Version Ihres Android-Smartphones verschieden.
+    </string>
+    <string name="text_registration">
+        <b>Registration:</b>\n
+        You must <b>register for participation in the study</b> on one of the following pages.
+        The data you enter here can be viewed at any time under "menu" -> "about participant".\n
+        The <b>participant ID</b> is used for pseudonymized data analysis.\n
+        It is made up of: <b>1. letter: place of birth</b> | <b>1. letter: first name</b> | <b>1. und 2. number of your birthday</b>.\n
+        For example <b>um01</b> for "Ulm", "Max", "01.01.1990".
+    </string>
+    <string name="text_DEregistration">
+        <b>Registrierung:</b>\n
+        Auf einer der folgenden Seiten müssen Sie sich für die <b>Teilnahme der Studie registrieren</b>.
+        Ihre hier angegebenen Daten können jederzeit über <b>"menu" -> "about participant"</b> eingesehen werden.\n
+        <b>participant ID</b> dient der pseudonymisierten Datenanalyse.\n
+        Sie setzt sich zusammen aus: <b>1. Buchstabe: Geburtsort</b> | <b>1. Buchstabe: Vorname</b> | <b>1. und 2. Zahl Ihres Geburtstages</b>.\n
+        Also z.B. <b>um01</b> für "Ulm", "Max", "01.01.1990".
+    </string>
+    <string name="text_studyStart">
+        <b>Start study:</b>\n
+        Once the registration process is complete, you will be taken to the main page of the app. There you can start the study by clicking on the <b>"start study"</b> button.\n
+        Please <b>switch on Bluetooth, GPS and WLAN/mobile data first</b>.\n
+        As soon as the study has started successfully, a <b>notification</b> will appear at the top of your smartphone. This will stay there for the entire duration of the study and informs you that the service (the app) is running.&#10;
+        Now you can close the app.
+    </string>
+    <string name="text_DEstudyStart">
+        <b>Studienstart:</b>\n
+        Wenn der Registrationsprozess abgeschlossen ist gelangen Sie zu der Hauptseite der App. Dort können Sie dann über den Button <b>"start study</b> die Studie starten.\n
+        Bitte <b>schalten Sie davor Bluetooth, GPS und WLAN/Mobile Daten ein</b>.\n
+        Sobald der Studienstart erfolgreich verlief erscheint im oberen Bereich ihres Smartphones eine <b>Notification</b>. Diese wird dort über die gesamte Dauer der Studie bleiben und informiert darüber dass der Service (die App) läuft.&#10;
+        Sie können die App nun schließen.
+    </string>
+    <string name="text_restart">
+        If the smartphone has had a <b>restart</b>,
+        please go to the app and restart the service under <b>"menu" -> "restart service"</b> too.\n
+        You will then be asked again for accessibility permission. Please confirm it.</string>
+    <string name="text_DErestart">
+        Wenn das Smartphone einen Neustart hatte, bitte in die App gehen und unter <b>"menu" -> "restart service"</b> den Service ebenfalls neu starten.\n
+        Es wird dann erneut nach der Accessibility Permission gefragt werden. Bitte diese genehmigen.
+    </string>
+    <string name="text_servicekill">
+        If it is seen that the service of the app is no longer running (if the notification at the top of the smartphone is no longer displayed after the study has started) for inexplicable reasons,
+        please go into the app and restart the service under <b>"menu" -> "restart service"</b>.\n
+        Reason: whether a service is terminated after a certain time depends on the Android version or the device model.
+        Although the "Battery Optimization" permission is used to prevent this, terminations can still happen in exceptional cases.
+    </string>
+    <string name="text_DEservicekill">
+        Wenn gesehen wird dass der Service der App aus unerklärlichen Gründen nicht mehr läuft (wenn die Notification im oberen Bereich des Smartphones nach Studienstart nicht mehr angezeigt wird)
+        wird darum gebeten in die App zu gehen und unter <b>"menu" -> "restart service"</b> den Service neu zu starten.\n
+        Grund: ob ein Service beendet wird nach einer gewissen Zeit ist abhängig von der Android Version oder dem Gerätemodell.
+        Es wird zwar mit der "Battery Optimization"-Permission dagegengewirkt, jedoch können Abbrüchen in Ausnahmefällen trotzdem vorkommen.
+    </string>
+    <string name="text_studyStopp">
+        Go to the app`s system settings (search for app widget -> hold down for 2 seconds -> click on <b>"app info"</b>).
+        Now click on <b>force stop</b>. The service and all other app functions are now stopped and the study canceled.
+    </string>
+    <string name="text_DEstudyStopp">
+        Gehen Sie in die Appeinstellungen des Systems (nach dem Widget der App suchen -> 2 Sekunden lang geklickt halten -> auf <b>"App Info"</b> klicken).
+        Jetzt <b>"stoppen erzwingen"</b> klicken. Der Service und alle anderen App-Funktionen sind nun gestoppt und die Studie damit abgebrochen.
+    </string>
+    <string name="text_extra">
+        Please ensure that you <b>do not change the system time on your smartphone</b> for the entire duration of the study.
+        This could otherwise disrupt the progress of the study.
+    </string>
+    <string name="text_DEextra">
+        Bitte achten Sie darauf, während der gesamten Dauer der Studie <b>auf keinen Fall die Systemzeit Ihres Smartphones zu ändern</b>.
+        Es könnte sonst zu Störungen des Studienablaufs kommen.
+    </string>
+
+    <string name="checkbox_about">I read the information</string>
+    <string name="checkbox_DEabout">Ich habe die Information gelesen</string>
+
+    <string name="subtitle_installation">Installation instructions</string>
+    <string name="subtitle_DEinstallation">Installationsanleitung</string>
+    <string name="subtitle_restart">Is it possible to simply restart the smartphone during the study?</string>
+    <string name="subtitle_DErestart">Ist es möglich das Smartphone während der Studie neu zu starten?</string>
+    <string name="subtitle_servicekill">What to do if the service is no longer running?</string>
+    <string name="subtitle_DEservicekill">Was machen wenn der Service nicht mehr läuft?</string>
+    <string name="subtitle_studyStopp">How to stopp study?</string>
+    <string name="subtitle_DEstudyStopp">Wie lässt sich die Studie stoppen?</string>
+    <string name="subtitle_extra">Additional informations</string>
+    <string name="subtitle_DEextra">Zusätzliche Informationen</string>
+    <string name="subtitle_thankyou">And last but not least: Thank you very much for taking part in this study! :)</string>
+    <string name="subtitle_DEthankyou">Und zu guter Letzt: Vielen Dank für deine Teilnahme an dieser Studie! :)</string>
+
+</resources>

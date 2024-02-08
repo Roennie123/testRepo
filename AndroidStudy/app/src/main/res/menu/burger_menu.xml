@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bt_about"
+        android:title="about study"/>
+
+    <item
+        android:id="@+id/bt_participant"
+        android:title="about participant"/>
+
+    <item
+        android:id="@+id/bt_permissions"
+        android:title="permissions" />
+
+    <item
+        android:id="@+id/bt_linkToQuestionaire"
+        android:title="questionaire" />
+
+    <item
+        android:id="@+id/bt_restart"
+        android:title="service restart" />
+
+</menu>
