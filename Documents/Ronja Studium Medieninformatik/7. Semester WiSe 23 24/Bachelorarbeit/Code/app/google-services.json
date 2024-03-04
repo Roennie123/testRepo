@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014490374106",
+    "project_id": "social-interaction-d9ef8",
+    "storage_bucket": "social-interaction-d9ef8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014490374106:android:086d61d6f446f21c656ae3",
+        "android_client_info": {
+          "package_name": "com.example.bastudy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2EquHIMFdGk1nq1zrwtqieC0v5mHMMZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

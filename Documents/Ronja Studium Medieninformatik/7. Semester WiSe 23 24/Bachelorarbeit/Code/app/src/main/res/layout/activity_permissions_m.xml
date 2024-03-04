@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/view_back_half"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/background_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_aboutparticipant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="150px"
+        android:text="Permission for the study"
+        android:textColor="@color/white"
+        android:textSize="80px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view_gps"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/window_view"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_aboutparticipant" />
+
+    <View
+        android:id="@+id/view_overlay"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/window_view"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_gps" />
+
+    <View
+        android:id="@+id/view_battery"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/window_view"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_overlay" />
+
+    <View
+        android:id="@+id/view_accessibility"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/window_view"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_battery" />
+
+    <Button
+        android:id="@+id/bt_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:text="check"
+        android:textStyle="bold"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_gps"
+        app:layout_constraintEnd_toEndOf="@+id/view_gps"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/view_gps"
+        app:layout_constraintTop_toTopOf="@+id/view_gps"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <Button
+        android:id="@+id/bt_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:text="check"
+        android:textStyle="bold"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_overlay"
+        app:layout_constraintEnd_toEndOf="@+id/view_overlay"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/view_overlay"
+        app:layout_constraintTop_toTopOf="@+id/view_overlay"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/bt_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:text="check"
+        android:textStyle="bold"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_battery"
+        app:layout_constraintEnd_toEndOf="@+id/view_battery"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/view_battery"
+        app:layout_constraintTop_toTopOf="@+id/view_battery"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/bt_accessibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:text="check"
+        android:textStyle="bold"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_accessibility"
+        app:layout_constraintEnd_toEndOf="@+id/view_accessibility"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/view_accessibility"
+        app:layout_constraintTop_toTopOf="@+id/view_accessibility"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <TextView
+        android:id="@+id/subtitle_gps"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp"
+        android:text="Location"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view_gps"
+        app:layout_constraintStart_toEndOf="@+id/bt_gps"
+        app:layout_constraintTop_toTopOf="@+id/view_gps" />
+
+    <TextView
+        android:id="@+id/subtitle_overlay"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp"
+        android:text="Overlay"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view_overlay"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toEndOf="@+id/bt_overlay"
+        app:layout_constraintTop_toTopOf="@+id/view_overlay" />
+
+    <TextView
+        android:id="@+id/subtitle_battery"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp"
+        android:text="Battery"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view_battery"
+        app:layout_constraintStart_toEndOf="@+id/bt_battery"
+        app:layout_constraintTop_toTopOf="@+id/view_battery" />
+
+    <TextView
+        android:id="@+id/subtitle_accessibility"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp"
+        android:text="Accessibility"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view_accessibility"
+        app:layout_constraintStart_toEndOf="@+id/bt_accessibility"
+        app:layout_constraintTop_toTopOf="@+id/view_accessibility" />
+
+    <TextView
+        android:id="@+id/text_gps"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:text="permission for iBeacon detection"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/view_battery"
+        app:layout_constraintEnd_toEndOf="@+id/view_battery"
+        app:layout_constraintStart_toEndOf="@+id/bt_battery"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle_battery"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_overlay"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:text="permission for interventions"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/view_overlay"
+        app:layout_constraintEnd_toEndOf="@+id/view_overlay"
+        app:layout_constraintStart_toEndOf="@+id/bt_overlay"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle_overlay"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_battery"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:text="permission for iBeacon detection"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/view_gps"
+        app:layout_constraintEnd_toEndOf="@+id/view_gps"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toEndOf="@+id/bt_gps"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle_gps"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_accessibility"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:text="permission for data collection"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/view_accessibility"
+        app:layout_constraintEnd_toEndOf="@+id/view_accessibility"
+        app:layout_constraintStart_toEndOf="@+id/bt_accessibility"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle_accessibility"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/bt_next_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:text="next"
+        android:textStyle="bold"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_battery"
+        app:layout_constraintVertical_bias="0.822" />
+
+    <Button
+        android:id="@+id/bt_back_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:text="back"
+        android:textStyle="bold"
+        android:translationZ="2dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_battery"
+        app:layout_constraintVertical_bias="0.823" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
